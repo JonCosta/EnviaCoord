@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">EnviaCoord</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">EnviaCoord</string>
+    <string name="envioOn">Enviando Coordenadas a cada 5 segundos</string>
+    <string name="envioOff">Envio de coordadas cancelado</string>
+    <string name="url_ws">http://10.0.2.2:8090/jersey/teste/mostrarCoord</string>
+
+</resources>
