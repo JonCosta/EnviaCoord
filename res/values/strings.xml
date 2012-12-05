@@ -1,11 +1,19 @@
 <resources>
 
     <string name="app_name">EnviaCoord</string>
-    <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">EnviaCoord</string>
     <string name="envioOn">Enviando Coordenadas a cada 5 segundos</string>
     <string name="envioOff">Envio de coordadas cancelado</string>
-    <string name="url_ws">http://10.0.2.2:8090/jersey/teste/mostrarCoord</string>
+    <string name="urlMostrarCoord">http://10.0.2.2:8090/jersey/teste/mostrarCoord</string>
+    <string name="txtDesligar">Desligar</string>
+    <string name="txtAceitar">Aceitar</string>
+    <string name="txtNegar">Recusar</string>
+    <string name="txtNovoPedido">Você tem um novo pedido!</string>
+    <string name="txtEndere">Endereço</string>
+    <string name="txtRefer">Referência</string>
+    <string name="urlCheckPedido">http://10.0.2.2:8090/jersey/teste/checkPedido</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_pedido">PedidoActivity</string>
 
 </resources>

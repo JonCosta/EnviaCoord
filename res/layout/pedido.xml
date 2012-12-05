@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnAceitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="51dp"
+        android:layout_marginLeft="69dp"
+        android:onClick="onClick"
+        android:text="@string/txtAceitar" />
+
+    <Button
+        android:id="@+id/btnNegar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAceitar"
+        android:layout_alignBottom="@+id/btnAceitar"
+        android:layout_marginLeft="47dp"
+        android:layout_toRightOf="@+id/btnAceitar"
+        android:onClick="onClick"
+        android:text="@string/txtNegar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtNovoPedido"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEnd"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="25dp"
+        android:text="@string/txtEndere"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:text="@string/txtRefer"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editRef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEnd"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="textMultiLine" />
+
+</RelativeLayout>
